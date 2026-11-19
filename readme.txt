@@ -4,7 +4,7 @@ Tags: login, google, oauth, google-workspace, sso
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 0.1.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,12 +83,12 @@ This service is provided by Google. By using it you are subject to:
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.0 =
 
 * Initial release: "Sign in with Google" button on wp-login.php via the OAuth2 authorization-code flow, optional Workspace domain allow-list.
 
 == Upgrade Notice ==
 
-= 0.1.0 =
+= 1.0.0 =
 
 First release.

@@ -3,7 +3,7 @@
  * Plugin Name: Lean Sign in with Google
  * Plugin URI: https://github.com/katamalabs/lean-sign-in-with-google
  * Description: Free, no upsells, no telemetry. Adds a "Sign in with Google" button to wp-login.php using the OAuth2 authorization-code flow, with an optional Google Workspace domain allow-list, optional auto-provisioning of new users, and wp-config.php overrides. Password login is never disabled.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Requires at least: 6.0
  * Requires PHP: 8.1
  * Author: pjaudiomv
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'LEAN_SIGN_IN_WITH_GOOGLE_VERSION', '0.1.0' );
+define( 'LEAN_SIGN_IN_WITH_GOOGLE_VERSION', '1.0.0' );
 define( 'LEAN_SIGN_IN_WITH_GOOGLE_FILE', __FILE__ );
 define( 'LEAN_SIGN_IN_WITH_GOOGLE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LEAN_SIGN_IN_WITH_GOOGLE_URL', plugin_dir_url( __FILE__ ) );
